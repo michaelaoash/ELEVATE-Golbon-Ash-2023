@@ -14,6 +14,7 @@ options(width=200)
 ## https://api.census.gov/data/key_signup.html
 census_api_key("cb9bd8756de7ba64b3c95ec0bd9193fc98d7cfe1")
 
+setwd("tidycensus-demo/holyoke/")
 
 ## Variable lists
 acs_v2020 <- load_variables(2020, "acs5", cache = TRUE)
