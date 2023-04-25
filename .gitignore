@@ -1,0 +1,4 @@
+*.pdf
+*.RDS
+*.Rout
+!scavenger-hunt.pdf
